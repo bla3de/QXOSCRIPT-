@@ -54,7 +54,7 @@ end
 -- Welcome Popup
 local Confirmed = false
 WindUI:Popup({
-    Title = spookyGradient("Vehub", HalloweenColors.Pumpkin, HalloweenColors.Purple),
+    Title = spookyGradient("QXO", HalloweenColors.Pumpkin, HalloweenColors.Purple),
     Icon = "skull",
     Content = (spookyGradient("Best MM2 Script - Halloween Edition!", HalloweenColors.Orange, HalloweenColors.DarkPurple) .. "<br/>" .. spookyGradient("Join our discord server! Daily Giveaways", HalloweenColors.Toxic, HalloweenColors.Purple)),
     Buttons = {
@@ -91,10 +91,10 @@ repeat task.wait() until Confirmed
 
 -- */  Window  /* --
 local Window = WindUI:CreateWindow({
-    Title = spookyGradient("vehub Hub", HalloweenColors.Pumpkin, HalloweenColors.Purple),
+    Title = spookyGradient("QXO Hub", HalloweenColors.Pumpkin, HalloweenColors.Purple),
     Author = "by vehub Scripts • Halloween Edition",
     Folder = "vehub",
-    Icon = "knife",
+    Icon = "👽",
     NewElements = true,
     
     Size = UDim2.new(0, 580, 0, 480),
@@ -109,7 +109,7 @@ local Window = WindUI:CreateWindow({
     ScrollBarEnabled = true,
     
     OpenButton = {
-        Title = "Open Node Hub",
+        Title = "Open QXO Hub",
         CornerRadius = UDim.new(0.5, 0),
         StrokeThickness = 2,
         Enabled = true,
